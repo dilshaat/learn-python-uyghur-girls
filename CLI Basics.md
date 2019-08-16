@@ -17,8 +17,30 @@ and
 
 ## Creating Directory or Folders
 
-To create a directory use `mkdir` command in all *Windows*, *Linux/Unix* or *MacOS* by supplying absolute or relative path, for example:
+To create a directory use `mkdir` command in all *Windows*, *Linux/Unix* or *MacOS* by supplying absolute or relative path, for example (Mac Terminal):
 
 ```bash
 >$ mkdir /Users/dilshad/Desktop/MyProjects
+```
+ 
+Example for Windows PowerShell:
+
+```PowerShell
+> mkdir C:\Users\dilshad\Desktop\MyProjects
+```
+
+## Creating a File
+
+Creating a file in *Linux* or *MacOS* is same as it is using `bash`. However, it is different in `PowerShell`. 
+
+In `PowerShell` we uses `CmdLets` (CommandLets):
+
+```PowerShell
+> New-Item -ItemType File -Name Hello.py -Path C:\Users\dilshad\Desktop\MyProjects
+```
+
+In `Bash`, however, much shorter, we use command `touch`:
+
+```bash
+> touch /Users/dilshad/Desktop/Hello.py
 ```
