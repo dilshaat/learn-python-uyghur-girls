@@ -20,7 +20,7 @@ and
 To create a directory use `mkdir` command in all *Windows*, *Linux/Unix* or *MacOS* by supplying absolute or relative path, for example (Mac Terminal):
 
 ```bash
->$ mkdir /Users/dilshad/Desktop/MyProjects
+> mkdir /Users/dilshad/Desktop/MyProjects
 ```
  
 Example for Windows PowerShell:
